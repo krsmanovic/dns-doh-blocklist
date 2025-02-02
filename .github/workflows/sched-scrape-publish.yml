@@ -1,0 +1,66 @@
+name: ScrapeValidateAndPublish
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - src/**
+  schedule:
+    - cron: '15 0 * * 5'
+  workflow_dispatch:
+
+env:
+  WORKDIR: './src'
+
+jobs:
+  main:
+    name: Scrape, validate and publish
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{env.WORKDIR}}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pip dependencies
+        run: |
+          pip3 install requests beautifulsoup4
+
+      - name: Scrape upstream source
+        run: |
+          python scrape_doh_source.py
+
+      - name: Validate the list
+        shell: bash
+        run: |
+          grep 'dns.google' ./doh_tmp.txt
+
+      - name: Compare old and new hashes
+        id: compare-hash
+        run: |
+          python compare_hash.py
+
+      - name: Write new list to repository
+        if: ${{env.STATE_REQUIRES_UPDATE}} == true
+        run: |
+          python write_list.py
+
+      - name: Get current date
+        if: ${{env.STATE_REQUIRES_UPDATE}} == true
+        id: get-date
+        run: |
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Create commit and tag
+        if: ${{env.STATE_REQUIRES_UPDATE}} == true
+        run: |
+          cd ..
+          TAG_NAME=$(date +"%Y-%m-%d")
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'krsmanovic@users.noreply.github.com'
+          git add ./hash ./doh_blocklist.txt
+          git commit -m "[GitHub Actions] Automatic update $TAG_NAME"
+          git push
+          git tag -a -f -m "[GitHub Actions] Automatic tag $TAG_NAME" $TAG_NAME
+          git push -f origin tag $TAG_NAME
