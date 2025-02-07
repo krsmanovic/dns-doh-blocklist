@@ -1,4 +1,4 @@
-name: ScrapeValidateAndPublish
+name: Scheduled update
 
 on:
   push:
@@ -42,18 +42,14 @@ jobs:
           python compare_hash.py
 
       - name: Write new list to repository
-        if: ${{env.STATE_REQUIRES_UPDATE}} == true
+        if: steps.compare-hash.outputs.REQUIRES_UPDATE == 'true'
+        env:
+          HASH_TEMP: ${{ steps.compare-hash.outputs.HASH_TEMP }}
         run: |
           python write_list.py
 
-      - name: Get current date
-        if: ${{env.STATE_REQUIRES_UPDATE}} == true
-        id: get-date
-        run: |
-          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
-
       - name: Create commit and tag
-        if: ${{env.STATE_REQUIRES_UPDATE}} == true
+        if: steps.compare-hash.outputs.REQUIRES_UPDATE == 'true'
         run: |
           cd ..
           TAG_NAME=$(date +"%Y-%m-%d")
