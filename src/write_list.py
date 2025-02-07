@@ -2,7 +2,7 @@
 
 import os
 from string import Template
-from datetime import datetime
+from datetime import datetime, timezone
 
 header_file = './header.tpl'
 output_file = '../doh_blocklist.txt'
@@ -11,7 +11,7 @@ path_hash = '../hash'
 
 # Templating header
 header_values = {
-    'time': datetime.utcnow().isoformat()[:-3]+'Z',
+    'time': datetime.now(timezone.utc).isoformat()[:-3]+'Z',
     'version': datetime.now().strftime("%Y-%m-%d"),
 }
 with open(header_file, 'r') as f:
