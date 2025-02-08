@@ -8,4 +8,5 @@ Scrape souce is cURL wiki located at https://github.com/curl/curl/wiki/DNS-over-
 
 > [!IMPORTANT]  
 > You would want this list in case you are hosting your own network-wide blocker. This list will help prevent clients in your local network from overriding your local DNS.  
-> Use this in combination with other DOh and DoT block lists, because my aim is not to cover ALL servers publicly available on the Internet.
+>
+> Use this in combination with other DoH and DoT block lists. My aim is not to cover all servers publicly available on the Internet, just the ones covered in the scrape source.  
