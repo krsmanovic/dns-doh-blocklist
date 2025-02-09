@@ -5,6 +5,7 @@ on:
     branches: ["main"]
     paths:
       - src/**
+      - .github/workflows/sched-scrape-publish.yml
   schedule:
     - cron: '15 0 * * 5'
   workflow_dispatch:
@@ -22,6 +23,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup git config
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Install pip dependencies
         run: |
@@ -48,15 +54,32 @@ jobs:
         run: |
           python write_list.py
 
-      - name: Create commit and tag
+      - name: Render tag name
+        id: tag-name
         if: steps.compare-hash.outputs.REQUIRES_UPDATE == 'true'
         run: |
-          cd ..
           TAG_NAME=$(date +"%Y-%m-%d")
-          git config --global user.name 'GitHub Actions'
-          git config --global user.email 'krsmanovic@users.noreply.github.com'
+          echo "TAG_NAME=$TAG_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Push tag
+        if: steps.compare-hash.outputs.REQUIRES_UPDATE == 'true'
+        env:
+          TAG_NAME: ${{ steps.tag-name.outputs.TAG_NAME }}
+        run: |
+          cd ${{ github.workspace }}
           git add ./hash ./doh_blocklist.txt
           git commit -m "[GitHub Actions] Automatic update $TAG_NAME"
           git push
           git tag -a -f -m "[GitHub Actions] Automatic tag $TAG_NAME" $TAG_NAME
           git push -f origin tag $TAG_NAME
+
+      - name: Create release
+        if: steps.compare-hash.outputs.REQUIRES_UPDATE == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.TOKEN }}
+          TAG_NAME: ${{ steps.tag-name.outputs.TAG_NAME }}
+        run: |
+          ARCHIVE_NAME="doh-block-list-$TAG_NAME.zip"
+          cd ${{ github.workspace }}
+          zip --quiet --junk-paths $ARCHIVE_NAME doh_blocklist.txt
+          gh release create $TAG_NAME $ARCHIVE_NAME --notes "[GitHub Actions] Automatic releaase $TAG_NAME"
