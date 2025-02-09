@@ -79,7 +79,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.TOKEN }}
           TAG_NAME: ${{ steps.tag-name.outputs.TAG_NAME }}
         run: |
-          ARCHIVE_NAME="doh-block-list-$TAG_NAME.zip"
+          ARCHIVE_NAME="doh-block-list.zip"
           cd ${{ github.workspace }}
           zip --quiet --junk-paths $ARCHIVE_NAME doh_blocklist.txt
-          gh release create $TAG_NAME $ARCHIVE_NAME --notes "[GitHub Actions] Automatic releaase $TAG_NAME"
+          gh release create $TAG_NAME $ARCHIVE_NAME --notes "[GitHub Actions] Release $TAG_NAME"
