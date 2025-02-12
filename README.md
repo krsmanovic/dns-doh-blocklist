@@ -1,10 +1,10 @@
-# Compiled list of DNS over HTTPS server domains published on cURL wiki
+# Compiled list of DNS over HTTPS server domains published on curl wiki
 
 ![Weekly update](https://github.com/krsmanovic/dns-doh-blocklist/actions/workflows/sched-scrape-publish.yml/badge.svg)
 
-This repository is hosting compiled list of DoH server domains published on cURL wiki which can be used by DNS sinkhole servers.
+This repository is hosting compiled list of DoH server domains published on curl wiki which can be used by DNS sinkhole servers.
 
-Scrape source is cURL wiki document located at https://github.com/curl/curl/wiki/DNS-over-HTTPS.
+Scrape source is curl wiki document located at https://github.com/curl/curl/wiki/DNS-over-HTTPS.
 
 Check for updates is performed weekly.
 
