@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-02-09
+# Version: 2025-02-21
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-02-09T07:51:53.074764+00Z
+# Last modified: 2025-02-21T01:53:40.476643+00Z
 #
 
 # Absolight
@@ -51,9 +51,6 @@ dns.anon.no
 
 # Anudeep
 secure.anudeep.me
-
-# Apollinaria
-dns.hypercute.eu
 
 # applewebkit.dev
 dns.applewebkit.dev
@@ -110,9 +107,6 @@ dns.bitservices.io
 # Blahdns
 doh-de.blahdns.com
 
-# BlissDNS
-us1.blissdns.net
-
 # Blokada DNS
 dns.blokada.org
 
@@ -138,9 +132,6 @@ dns.brono.cloud
 # butterfly87.sbs
 dns.butterfly87.sbs
 
-# bunny.net
-doh1.b-cdn.net
-
 # Burgas
 dns.burgas.pro
 
@@ -152,9 +143,6 @@ dns.cabbage.zone
 
 # Canarypwn
 doh.aaaab3n.moe
-
-# carter.me
-dns.carter.me
 
 # caspervk.net
 dns.caspervk.net
@@ -175,14 +163,8 @@ dns.chenu.ch
 # Christer Warén
 dns.christerwaren.fi
 
-# chriswservers.com
-dns.chriswservers.com
-
 # ChunghwaMC
 dns.chunghwamc.com
-
-# cippapp.com
-doh.cippapp.com
 
 # CIRA Canadian Shield
 private.canadianshield.cira.ca
@@ -308,7 +290,6 @@ bts01.dnscry.pt
 bne01.dnscry.pt
 bru01.dnscry.pt
 yyc01.dnscry.pt
-ord01.dnscry.pt
 kiv01.dnscry.pt
 cph01.dnscry.pt
 cvt01.dnscry.pt
@@ -373,7 +354,6 @@ hard.dnsforge.de
 # DNS-GA
 dns1.dns-ga.de
 dns2.dns-ga.de
-dns3.dns-ga.de
 
 # dnsHome.de
 dns.dnshome.de
@@ -466,9 +446,6 @@ nicsezcheckfbi.gov
 ns0.fdn.fr
 ns1.fdn.fr
 
-# fehlsprache.de
-dns.fehlsprache.de
-
 # Feroz
 doh.li
 
@@ -538,9 +515,6 @@ dns.deadsec.net
 # Hakase
 dns.haka.se
 
-# hjebbour.top
-adguard.hjebbour.top
-
 # home-server.store
 home-server.store
 
@@ -602,9 +576,6 @@ ad.justincounts.com
 # kapite.in
 dns.kapite.in
 
-# Karadağlar
-dns.karadag.me
-
 # kasbot.net
 adguard.kasbot.net
 
@@ -644,9 +615,6 @@ dart.kpsn.org
 # krctech.dev
 adblock.krctech.dev
 
-# kuuhaku.moe
-dns.kuuhaku.moe
-
 # La Contre-Voie
 doh.lacontrevoie.fr
 
@@ -658,9 +626,6 @@ eu1.dns.lavate.ch
 
 # lepilleur.com
 dns.lepilleur.com
-
-# Levonet
-dns.levonet.sk
 
 # Liberador.net
 dns.liberador.net
@@ -692,8 +657,6 @@ dns.luma-medien.com
 dns.l337.site
 
 # mabuktogel
-mabuktogel.properties
-mabuktogel.solutions
 mabuktogel.directory
 
 # maqgie.xyz
@@ -701,9 +664,6 @@ maqgie.xyz
 
 # marasov.id
 dns.marasov.id
-
-# Marbled Fennec Networks / FurrIX
-dns.marbledfennec.net
 
 # Marco Fox
 dns.technologycage.com
@@ -716,9 +676,6 @@ masters-of-cloud.de
 
 # mateo.ovh
 dns.mateo.ovh
-
-# Max Philipp Wriefdt
-home.wriedts.de
 
 # Mayx
 dns.mayx.eu.org
@@ -797,9 +754,6 @@ ae-fuj-w-p-2.nashkan.net
 ae-fuj-w-p-3.nashkan.net
 at-wie-w-p-1.nashkan.net
 au-syd-w-f-1.nashkan.net
-de-fra-w-p-1.nashkan.net
-fr-gra-w-f-1.nashkan.net
-fr-gra-w-p-1.nashkan.net
 gb-lon-w-p-2.nashkan.net
 ro-buc-w-p-1.nashkan.net
 sg-w-p-1.nashkan.net
@@ -817,17 +771,11 @@ us-saj-w-p-1.nashkan.net
 # neeb.it
 dns.neeb.it
 
-# nekosama.store
-nekosama.store
-
 # NetVPN
 dns.netvpn.net
 
 # NextDNS
 dns.nextdns.io
-
-# nhtsky
-dns.nhtsky.com
 
 # Nick Slowinski
 dns.nick-slowinski.de
@@ -844,7 +792,7 @@ doh-random-upstream.nicolas-dorriere.fr
 doh-own-recursion.nicolas-dorriere.fr
 
 # Nightly Moon
-nightlymoon.us.kg
+dns.nightlymoon.us.kg
 
 # niko.NWPS.fi
 public.ns.nwps.fi
@@ -904,7 +852,7 @@ paradise-human.shop
 pashagame456.com
 
 # Paulo
-paulo.nom.za
+dns.paulo.nom.za
 
 # Pavol Decky
 dns.decky.eu
@@ -939,12 +887,7 @@ pm9352-bd.xyz
 pm7051-br.xyz
 
 # polisitogel
-polisitogel.living
 polisitogel.webcam
-polisitogel.luxe
-polisitogel.limo
-polisitogel.show
-polisitogel.realty
 
 # pooblet.co.za
 pooblet.co.za
@@ -1161,6 +1104,9 @@ tri-dns.net
 eu.tri-dns.net
 asia.tri-dns.net
 
+# [UK DNS Privacy Project
+resolver.dnsprivacy.org.uk
+
 # UncensoredDNS
 anycast.uncensoreddns.org
 
@@ -1172,9 +1118,6 @@ adfree.usableprivacy.net
 
 # vaioswolke.xyz
 dns.vaioswolke.xyz
-
-# Vasili Sviridov
-tor.vasi.li
 
 # VIA
 doh.viatech.com.tw
@@ -1196,10 +1139,6 @@ abel.waringer-atg.de
 
 # Wikimedia DNS
 wikimedia-dns.org
-
-# wuyouss.com
-ns2.wuyouss.com
-ns3.wuyouss.com
 
 # W3C TAG
 dns.w3ctag.org
@@ -1236,9 +1175,6 @@ doh.zknt.org
 # 0ooo.icu
 dns.0ooo.icu
 
-# 052419.xyz
-052419.xyz
-
 # 123000123.xyz
 123000123.xyz
 
@@ -1250,10 +1186,6 @@ ns2.4netguides.org
 
 # 444723.xyz
 dns.444723.xyz
-
-# 5ososea
-family.5ososea.com
-kids.5ososea.com
 
 # 52306.org
 dns.52306.org
