@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-03-07
+# Version: 2025-03-14
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-03-07T01:58:16.832313+00Z
+# Last modified: 2025-03-14T01:57:28.676854+00Z
 #
 
 # Absolight
@@ -54,6 +54,9 @@ secure.anudeep.me
 
 # applewebkit.dev
 dns.applewebkit.dev
+
+# Aquilenet DNS
+dns.aquilenet.fr
 
 # Arashi DNS
 arashi.net.eu.org
@@ -400,9 +403,6 @@ dns.d94.xyz
 # d96.info
 dns.d96.info
 
-# EasyMosdns
-doh.apad.pro
-
 # efficientdocuments.com
 dns.efficientdocuments.com
 
@@ -576,9 +576,6 @@ dns.kapite.in
 # kasbot.net
 adguard.kasbot.net
 
-# kastner-online.de
-dns.kastner-online.de
-
 # kebree.fr
 dns.kebree.fr
 
@@ -662,6 +659,9 @@ dns.marasov.id
 # Marco Fox
 dns.technologycage.com
 
+# Marbled Fennec Networks / FurrIX
+dns.marbledfennec.net
+
 # maskab
 doh.maskab.com
 
@@ -683,9 +683,6 @@ adguard.meddy94.de
 # mendozasdelivery.com
 mendozasdelivery.com
 
-# meshkov.info
-testaghome.meshkov.info
-
 # mh4ckt3mh4ckt1c4s.xyz
 dns.mh4ckt3mh4ckt1c4s.xyz
 
@@ -706,9 +703,6 @@ doh.mmmalia.com
 
 # mnet-online.de
 dns.mnet-online.de
-
-# mnrv.trade
-mnrv.trade
 
 # mobik
 dnstls.mobik.com
@@ -757,7 +751,6 @@ us-jac-w-f-1.nashkan.net
 us-jac-w-p-1.nashkan.net
 us-kan-w-f-1.nashkan.net
 us-kan-w-p-1.nashkan.net
-us-nyc-w-f-1.nashkan.net
 us-nyc-w-p-1.nashkan.net
 us-saj-w-f-1.nashkan.net
 us-saj-w-p-1.nashkan.net
@@ -876,9 +869,6 @@ pm9352-bd.xyz
 
 # pm7051-br.xyz
 pm7051-br.xyz
-
-# polisitogel
-polisitogel.webcam
 
 # pooblet.co.za
 pooblet.co.za
@@ -1186,9 +1176,6 @@ doh.774445.xyz
 
 # 775467.xyz
 dns.775467.xyz
-
-# 853852.xyz
-dns.853852.xyz
 
 # 8887744.xyz
 dns.8887744.xyz
