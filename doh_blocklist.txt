@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-03-14
+# Version: 2025-03-28
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-03-14T01:57:28.676854+00Z
+# Last modified: 2025-03-28T02:00:33.025258+00Z
 #
 
 # Absolight
@@ -495,14 +495,6 @@ dns.google
 dns64.dns.google
 8888.google
 
-# Gorgeous
-mita-is.so-gorgeo.us.kg
-yussy-is.so-gorgeo.us.kg
-nova-is.so-gorgeo.us.kg
-nindy-is.so-gorgeo.us.kg
-sitha-is.so-gorgeo.us.kg
-mecca-is.so-gorgeo.us.kg
-
 # Gottlieb Freitag
 dns.glf.wtf
 
@@ -777,9 +769,6 @@ adguard-kartoffel.zernico.de
 # Nicolas Dorriere
 doh-random-upstream.nicolas-dorriere.fr
 doh-own-recursion.nicolas-dorriere.fr
-
-# Nightly Moon
-dns.nightlymoon.us.kg
 
 # niko.NWPS.fi
 public.ns.nwps.fi
