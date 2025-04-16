@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 env:
-  WORKDIR: './.github/'
+  WORKDIR: './.github/src/'
 
 jobs:
   main:
