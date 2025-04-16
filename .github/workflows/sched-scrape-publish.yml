@@ -4,14 +4,14 @@ on:
   push:
     branches: ["main"]
     paths:
-      - src/**
+      - .github/src/**
       - .github/workflows/sched-scrape-publish.yml
   schedule:
     - cron: '15 0 * * 5'
   workflow_dispatch:
 
 env:
-  WORKDIR: './src'
+  WORKDIR: './.github/'
 
 jobs:
   main:

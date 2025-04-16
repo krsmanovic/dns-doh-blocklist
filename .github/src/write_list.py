@@ -5,9 +5,9 @@ from string import Template
 from datetime import datetime, timezone
 
 header_file = './header.tpl'
-output_file = '../doh_blocklist.txt'
+output_file = '../../doh_blocklist.txt'
 path_tmp = './doh_tmp.txt'
-path_hash = '../hash'
+path_hash = '../../hash'
 
 # Templating header
 header_values = {

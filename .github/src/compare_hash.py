@@ -10,7 +10,7 @@ def get_sha256_hash(file_path):
 
 if __name__ == '__main__':
     path_tmp = './doh_tmp.txt'
-    path_hash = '../hash'
+    path_hash = '../../hash'
     github_env_file = os.getenv('GITHUB_OUTPUT', 'WAS_EMPTY=true\n')
     temp_exists = os.path.isfile(path_tmp)
     hash_exists = os.path.isfile(path_hash)
