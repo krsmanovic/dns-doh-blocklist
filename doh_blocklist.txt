@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-04-16
+# Version: 2025-04-18
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-04-16T16:06:09.221525+00Z
+# Last modified: 2025-04-18T10:32:34.575377+00Z
 #
 
 # Absolight
@@ -336,7 +336,6 @@ clean.dnsforge.de
 hard.dnsforge.de
 
 # DNS-GA
-dns1.dns-ga.de
 dns2.dns-ga.de
 
 # dnsHome.de
@@ -413,9 +412,6 @@ dns.fancyorg.at
 
 # farshidhakimy.de
 dns.farshidhakimy.de
-
-# farewellkou.click
-farewellkou.click
 
 # FBI NICS E-Check
 nicsezcheckfbi.gov
@@ -587,10 +583,6 @@ doh.libredns.gr
 
 # lifeisa.live
 lifeisa.live
-
-# Liquid Intelligent Technologies
-africadns1.liquidtelecom.net
-africadns2.liquidtelecom.net
 
 # loadlow.me
 loadlow.me
@@ -781,9 +773,6 @@ ns1.opennameserver.org
 # PaesaDNS
 dns.paesa.es
 
-# paradise-human.shop
-paradise-human.shop
-
 # pashagame456.com
 pashagame456.com
 
@@ -845,7 +834,6 @@ dns12.quad9.net
 dns.quiet.rocks
 
 # QWER DNS
-ant.dns.qwer.pw
 dog.dns.qwer.pw
 lion.dns.qwer.pw
 frog.dns.qwer.pw
