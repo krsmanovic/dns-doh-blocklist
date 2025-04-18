@@ -7,7 +7,7 @@ on:
       - .github/src/**
       - .github/workflows/sched-scrape-publish.yml
   schedule:
-    - cron: '15 0 * * 5'
+    - cron: '23 0 * * SAT'
   workflow_dispatch:
 
 env:
