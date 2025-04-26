@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-04-18
+# Version: 2025-04-26
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-04-18T10:32:34.575377+00Z
+# Last modified: 2025-04-26T02:08:49.247714+00Z
 #
 
 # Absolight
@@ -219,9 +219,6 @@ dns.datenquark.de
 # deep-henchman-excuse.cfd
 deep-henchman-excuse.cfd
 
-# denypradana.com
-doh.denypradana.com
-
 # dev-umbrellagov
 dns.dev-umbrellagov.com
 
@@ -334,9 +331,6 @@ evn01.dnscry.pt
 dnsforge.de
 clean.dnsforge.de
 hard.dnsforge.de
-
-# DNS-GA
-dns2.dns-ga.de
 
 # dnsHome.de
 dns.dnshome.de
@@ -699,7 +693,6 @@ us-chi-w-f-1.nashkan.net
 us-chi-w-p-1.nashkan.net
 us-jac-w-f-1.nashkan.net
 us-jac-w-p-1.nashkan.net
-us-kan-w-f-1.nashkan.net
 us-kan-w-p-1.nashkan.net
 us-nyc-w-p-1.nashkan.net
 us-saj-w-f-1.nashkan.net
@@ -1043,9 +1036,6 @@ wikimedia-dns.org
 # W3C TAG
 dns.w3ctag.org
 
-# xDNS
-xmr.land
-
 # xlion.tw
 dns.xlion.tw
 
@@ -1071,9 +1061,6 @@ doh.zknt.org
 
 # 0ms
 0ms.dev
-
-# 0ooo.icu
-dns.0ooo.icu
 
 # 123000123.xyz
 123000123.xyz
