@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-04-26
+# Version: 2025-05-03
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-04-26T02:08:49.247714+00Z
+# Last modified: 2025-05-03T02:11:56.804757+00Z
 #
 
 # Absolight
@@ -24,9 +24,6 @@ adfreedns.top
 dns.adguard-dns.com
 family.adguard-dns.com
 unfiltered.adguard-dns.com
-
-# affcdn.net
-affcdn.net
 
 # affsoft.cc
 affsoft.cc
@@ -183,6 +180,10 @@ dns64.cloudflare-dns.com
 # comff.net
 dns.comff.net
 
+# Comss.one DNS
+dns.comss.one
+router.comss.one
+
 # Control D
 freedns.controld.com
 
@@ -279,7 +280,6 @@ dub01.dnscry.pt
 dus01.dnscry.pt
 fra01.dnscry.pt
 fra02.dnscry.pt
-fjr01.dnscry.pt
 gva01.dnscry.pt
 haf01.dnscry.pt
 yhz01.dnscry.pt
@@ -389,9 +389,6 @@ dns.henek.ovh
 # Elemental Software
 dns.elemental.software
 
-# eliatofani.ovh
-eliatofani.ovh
-
 # ELIV DNS
 dns.eliv.kr
 
@@ -484,9 +481,6 @@ dns.hostux.net
 # Huque
 doth.huque.com
 
-# Hurricane Electric
-ordns.he.net
-
 # immerda.ch
 doh.immerda.ch
 
@@ -502,9 +496,6 @@ dns.inclusioproject.com
 
 # Inforlogia
 dns.inforlogia.com
-
-# Institut national de recherche en sciences et technologies du numérique
-qlf-doh.inria.fr
 
 # Internet Initiative Japan
 public.dns.iij.jp
@@ -653,12 +644,6 @@ dns.mnet-online.de
 
 # mobik
 dnstls.mobik.com
-
-# moamao.shop
-moamao.shop
-
-# momou! DNS
-dns.momou.ch
 
 # Mullvad
 dns.mullvad.net
@@ -813,9 +798,6 @@ dns.propheci.xyz
 # Pubhole
 doh.archuser.org
 
-# Quadrant Information Security
-doh.qis.io
-
 # Quad9
 dns.quad9.net
 dns9.quad9.net
@@ -878,9 +860,6 @@ adguard.senthil.us
 
 # serdcebolit.ru
 dns1.serdcebolit.ru
-
-# sev.monster
-dns.sev.monster
 
 # Sheggi
 dns.sheggi.ch
@@ -977,11 +956,6 @@ dns.tls-data.de
 
 # TN Photography
 adb.timnichollsphotography.com
-
-# Trash.net
-resolv1.trash.net
-resolv2.trash.net
-resolv3.trash.net
 
 # TrcNeTin
 ns.trcnet.fi
