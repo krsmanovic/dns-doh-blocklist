@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-05-03
+# Version: 2025-05-10
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-05-03T02:11:56.804757+00Z
+# Last modified: 2025-05-10T02:11:36.126136+00Z
 #
 
 # Absolight
@@ -27,9 +27,6 @@ unfiltered.adguard-dns.com
 
 # affsoft.cc
 affsoft.cc
-
-# AhaDNS Blitz
-blitz.ahadns.com
 
 # AliDNS
 dns.alidns.com
@@ -285,7 +282,6 @@ haf01.dnscry.pt
 yhz01.dnscry.pt
 han01.dnscry.pt
 sgn01.dnscry.pt
-isb01.dnscry.pt
 ist01.dnscry.pt
 las01.dnscry.pt
 lim02.dnscry.pt
@@ -957,9 +953,6 @@ dns.tls-data.de
 # TN Photography
 adb.timnichollsphotography.com
 
-# TrcNeTin
-ns.trcnet.fi
-
 # tujenasnaszato.xyz
 tujenasnaszato.xyz
 
@@ -1023,18 +1016,11 @@ yarp.lefolgoc.net
 # Yuu528
 dns.yuu-g.net
 
-# Zakaria
-zakaria.website
-princez.uk
-
 # zdn.ro
 zdn.ro
 
 # zknt.org
 doh.zknt.org
-
-# 0ms
-0ms.dev
 
 # 123000123.xyz
 123000123.xyz
