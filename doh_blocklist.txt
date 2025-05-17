@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-05-10
+# Version: 2025-05-17
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-05-10T02:11:36.126136+00Z
+# Last modified: 2025-05-17T02:14:37.980313+00Z
 #
 
 # Absolight
@@ -204,9 +204,6 @@ odvr.nic.cz
 
 # Danielle McLean
 ns.00dani.me
-
-# dantynes.cyou
-adguard.dantynes.cyou
 
 # data.haus
 ns.data.haus
@@ -432,10 +429,6 @@ dns.froth.zone
 # FutaDNS
 doh.futa.gg
 
-# FutureDNS
-dns.de.futuredns.eu.org
-dns.us.futuredns.eu.org
-
 # Gamban
 dns.gamban.com
 
@@ -498,8 +491,6 @@ public.dns.iij.jp
 
 # is.my.waifu.cz
 megumin.is.my.waifu.cz
-darkness.is.my.waifu.cz
-aqua.is.my.waifu.cz
 yunyun.is.my.waifu.cz
 
 # Jupitr DNS
@@ -549,9 +540,6 @@ adblock.krctech.dev
 
 # La Contre-Voie
 doh.lacontrevoie.fr
-
-# Lars Lehmann
-dns.lars-lehmann.net
 
 # LavaDNS
 eu1.dns.lavate.ch
@@ -715,9 +703,6 @@ doh.niyawe.de
 
 # Njalla
 dns.njal.la
-
-# nonexiste.net
-kiri.nonexiste.net
 
 # NordVPN
 dns1.nordvpn.com
