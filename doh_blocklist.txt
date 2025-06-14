@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-05-17
+# Version: 2025-06-14
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-05-17T02:14:37.980313+00Z
+# Last modified: 2025-06-14T02:16:57.908669+00Z
 #
 
 # Absolight
@@ -27,6 +27,9 @@ unfiltered.adguard-dns.com
 
 # affsoft.cc
 affsoft.cc
+
+# AKBXR DNS
+dns.akbxr.com
 
 # AliDNS
 dns.alidns.com
@@ -239,6 +242,13 @@ kids.dns0.eu
 # DNS4all
 doh.dns4all.eu
 
+# DNS4EU
+protective.joindns4.eu
+child.joindns4.eu
+noads.joindns4.eu
+child-noads.joindns4.eu
+unfiltered.joindns4.eu
+
 # dns4me
 ca01.dns4me.net
 ca02.dns4me.net
@@ -330,6 +340,14 @@ dns.dnshome.de
 
 # dnslow.me
 dnslow.me
+
+# DNS over Tor
+hongkong.dnsovertor.cc
+japan.dnsovertor.cc
+chuncheon.dnsovertor.cc
+chuncheon1.dnsovertor.cc
+seoul.dnsovertor.cc
+singapore.dnsovertor.cc
 
 # DNSPod
 dns.pub
@@ -495,6 +513,12 @@ yunyun.is.my.waifu.cz
 
 # Jupitr DNS
 dns.jupitrdns.com
+
+# JusProgDNS
+doh0.jusprogdns.com
+doh6.jusprogdns.com
+doh12.jusprogdns.com
+doh16.jusprogdns.com
 
 # Justin Counts
 ad.justincounts.com
@@ -886,6 +910,9 @@ dns.stormycloud.org
 
 # sublime9.xyz
 doh.sublime9.xyz
+
+# Surfshark DNS
+dns.surfsharkdns.com
 
 # suhaila.dev
 dns.suhaila.dev
