@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-06-14
+# Version: 2025-07-12
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-06-14T02:16:57.908669+00Z
+# Last modified: 2025-07-12T02:28:55.970551+00Z
 #
 
 # Absolight
@@ -62,23 +62,14 @@ ns.net.kg
 # arnor.org
 nsec.arnor.org
 
-# Artikel10
-dns.artikel10.org
-
 # Asteri Moon
 dns.asterimoon.com
-
-# atris.cyou
-atris.cyou
 
 # Avast DNS
 secure.avastdns.com
 
 # a47.me
 dns.a47.me
-
-# battle.christmas
-doh.battle.christmas
 
 # bazooki-infra.dev
 bazooki-infra.dev
@@ -97,9 +88,6 @@ dns.bitdefender.net
 
 # BITServices
 dns.bitservices.io
-
-# Blahdns
-doh-de.blahdns.com
 
 # Blokada DNS
 dns.blokada.org
@@ -122,9 +110,6 @@ dns.brembeck.cloud
 
 # butterfly87.sbs
 dns.butterfly87.sbs
-
-# Burgas
-dns.burgas.pro
 
 # busold.ws
 dns.busold.ws
@@ -262,7 +247,6 @@ uk01.dns4me.net
 nz01.dns4me.net
 ie01.dns4me.net
 de01.dns4me.net
-jp01.dns4me.net
 
 # dns-53
 dns.dns-53.us
@@ -295,7 +279,6 @@ lim02.dnscry.pt
 lis01.dnscry.pt
 lon01.dnscry.pt
 mad01.dnscry.pt
-man01.dnscry.pt
 mil01.dnscry.pt
 bom01.dnscry.pt
 nue01.dnscry.pt
@@ -315,14 +298,12 @@ sin02.dnscry.pt
 sof01.dnscry.pt
 geg01.dnscry.pt
 sto01.dnscry.pt
-syd01.dnscry.pt
 syd02.dnscry.pt
 tll01.dnscry.pt
 tpa01.dnscry.pt
 tsm01.dnscry.pt
 tbs01.dnscry.pt
 tlv01.dnscry.pt
-tyo02.dnscry.pt
 yyz01.dnscry.pt
 yvr01.dnscry.pt
 vie01.dnscry.pt
@@ -342,12 +323,10 @@ dns.dnshome.de
 dnslow.me
 
 # DNS over Tor
-hongkong.dnsovertor.cc
 japan.dnsovertor.cc
 chuncheon.dnsovertor.cc
 chuncheon1.dnsovertor.cc
 seoul.dnsovertor.cc
-singapore.dnsovertor.cc
 
 # DNSPod
 dns.pub
@@ -436,7 +415,6 @@ dns.floriantinney.de
 
 # FLY_MC
 dns.flymc.cc
-dns.pari.network
 
 # Foundation for Applied Privacy
 doh.applied-privacy.net
@@ -469,9 +447,6 @@ dns.glf.wtf
 
 # Guardio
 dns.guard.io
-
-# Hacki
-dns.deadsec.net
 
 # Hakase
 dns.haka.se
@@ -513,12 +488,6 @@ yunyun.is.my.waifu.cz
 
 # Jupitr DNS
 dns.jupitrdns.com
-
-# JusProgDNS
-doh0.jusprogdns.com
-doh6.jusprogdns.com
-doh12.jusprogdns.com
-doh16.jusprogdns.com
 
 # Justin Counts
 ad.justincounts.com
@@ -608,9 +577,6 @@ dns.technologycage.com
 # Marbled Fennec Networks / FurrIX
 dns.marbledfennec.net
 
-# maskab
-doh.maskab.com
-
 # Masters of Cloud
 masters-of-cloud.de
 
@@ -638,9 +604,6 @@ dns.michelo.cl
 # Mike Zhang
 mikezhang.xyz
 
-# mismat.ch
-netcup.mismat.ch
-
 # m-it.ro
 addns1.m-it.ro
 
@@ -649,9 +612,6 @@ doh.mmmalia.com
 
 # mnet-online.de
 dns.mnet-online.de
-
-# mobik
-dnstls.mobik.com
 
 # Mullvad
 dns.mullvad.net
@@ -677,7 +637,6 @@ dns.mzjtechnology.com
 ae-fuj-w-p-1.nashkan.net
 ae-fuj-w-p-2.nashkan.net
 ae-fuj-w-p-3.nashkan.net
-at-wie-w-p-1.nashkan.net
 au-syd-w-f-1.nashkan.net
 gb-lon-w-p-2.nashkan.net
 ro-buc-w-p-1.nashkan.net
@@ -693,9 +652,6 @@ us-saj-w-p-1.nashkan.net
 
 # neeb.it
 dns.neeb.it
-
-# NetVPN
-dns.netvpn.net
 
 # NextDNS
 dns.nextdns.io
@@ -765,9 +721,6 @@ dns.paulo.nom.za
 # Pavol Decky
 dns.decky.eu
 
-# peb-schmidt.de
-dns.peb-schmidt.de
-
 # pepetio.xyz
 pepetio.xyz
 
@@ -784,12 +737,6 @@ pluton.plan9-dns.com
 
 # PlumeDNS
 privacy.plumedns.com
-
-# pm9352-bd.xyz
-pm9352-bd.xyz
-
-# pm7051-br.xyz
-pm7051-br.xyz
 
 # pooblet.co.za
 pooblet.co.za
@@ -869,9 +816,6 @@ dns1.serdcebolit.ru
 # Sheggi
 dns.sheggi.ch
 
-# Shimul D
-dns.shimul.me
-
 # shoupperuser.com
 adguard.shoupperuser.com
 
@@ -902,14 +846,14 @@ squidmall.vip
 # Startup Stack
 dns.startupstack.tech
 
+# SZ DNS
+doh.sz-dns.com
+
 # stirringphoto.com
 dns.stirringphoto.com
 
 # StormyCloud
 dns.stormycloud.org
-
-# sublime9.xyz
-doh.sublime9.xyz
 
 # Surfshark DNS
 dns.surfsharkdns.com
@@ -1018,10 +962,6 @@ dns.w3ctag.org
 # xlion.tw
 dns.xlion.tw
 
-# Xstl DNS
-dns.seia.io
-secondary.dns.seia.io
-
 # Yarp
 yarp.lefolgoc.net
 
@@ -1043,23 +983,8 @@ doh.zknt.org
 # 4NetGuides
 ns2.4netguides.org
 
-# 444723.xyz
-dns.444723.xyz
-
 # 688447.xyz
 dns.688447.xyz
-
-# 774445.xyz
-doh.774445.xyz
-
-# 775467.xyz
-dns.775467.xyz
-
-# 8887744.xyz
-dns.8887744.xyz
-
-# 9999.sg
-dns.9999.sg
 
 # @null31
 ibuki.cgnat.net
