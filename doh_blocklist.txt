@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-07-12
+# Version: 2025-07-19
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-07-12T02:28:55.970551+00Z
+# Last modified: 2025-07-19T02:25:16.798320+00Z
 #
 
 # Absolight
@@ -79,9 +79,6 @@ dns.belnet.be
 
 # Ben Hocking
 dns.bmwhocking.com
-
-# bestwon203.com
-bestwon203.com
 
 # Bitdefender
 dns.bitdefender.net
@@ -319,6 +316,9 @@ hard.dnsforge.de
 # dnsHome.de
 dns.dnshome.de
 
+# DNSGuard.pub
+dnsguard.pub
+
 # dnslow.me
 dnslow.me
 
@@ -369,9 +369,6 @@ dns.d94.xyz
 
 # d96.info
 dns.d96.info
-
-# efficientdocuments.com
-dns.efficientdocuments.com
 
 # Egor Glukhikh
 dns.henek.ovh
@@ -445,6 +442,9 @@ dns64.dns.google
 # Gottlieb Freitag
 dns.glf.wtf
 
+# Green Ping
+dns.green-ping.lol
+
 # Guardio
 dns.guard.io
 
@@ -473,9 +473,6 @@ imperio.top
 dns1.in-berlin.de
 dns2.in-berlin.de
 
-# Inclusio
-dns.inclusioproject.com
-
 # Inforlogia
 dns.inforlogia.com
 
@@ -489,9 +486,6 @@ yunyun.is.my.waifu.cz
 # Jupitr DNS
 dns.jupitrdns.com
 
-# Justin Counts
-ad.justincounts.com
-
 # kapite.in
 dns.kapite.in
 
@@ -500,9 +494,6 @@ adguard.kasbot.net
 
 # kebree.fr
 dns.kebree.fr
-
-# Kerekes
-dns.kerekes.xyz
 
 # Kernel Error
 dns.kernel-error.de
@@ -712,9 +703,6 @@ ns1.opennameserver.org
 # PaesaDNS
 dns.paesa.es
 
-# pashagame456.com
-pashagame456.com
-
 # Paulo
 dns.paulo.nom.za
 
@@ -806,9 +794,6 @@ dns.roedel.cloud
 
 # SafeServe
 safeservedns.com
-
-# senthil.us
-adguard.senthil.us
 
 # serdcebolit.ru
 dns1.serdcebolit.ru
@@ -906,14 +891,8 @@ dns.tipsy.coffee
 # Tls-data.de
 dns.tls-data.de
 
-# TN Photography
-adb.timnichollsphotography.com
-
 # tujenasnaszato.xyz
 tujenasnaszato.xyz
-
-# tuskythehusky.tech
-tuskythehusky.tech
 
 # TWNIC
 dns.twnic.tw
@@ -944,9 +923,6 @@ dns.vaioswolke.xyz
 # VIA
 doh.viatech.com.tw
 
-# vorlif.org
-vorlif.org
-
 # wang art
 dns.wang.art
 
@@ -976,9 +952,6 @@ doh.zknt.org
 
 # 123000123.xyz
 123000123.xyz
-
-# 3dcosas.xyz
-3dcosas.xyz
 
 # 4NetGuides
 ns2.4netguides.org
