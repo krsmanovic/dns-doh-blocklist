@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-07-19
+# Version: 2025-07-26
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-07-19T02:25:16.798320+00Z
+# Last modified: 2025-07-26T02:26:55.388120+00Z
 #
 
 # Absolight
@@ -24,9 +24,6 @@ adfreedns.top
 dns.adguard-dns.com
 family.adguard-dns.com
 unfiltered.adguard-dns.com
-
-# affsoft.cc
-affsoft.cc
 
 # AKBXR DNS
 dns.akbxr.com
@@ -325,7 +322,6 @@ dnslow.me
 # DNS over Tor
 japan.dnsovertor.cc
 chuncheon.dnsovertor.cc
-chuncheon1.dnsovertor.cc
 seoul.dnsovertor.cc
 
 # DNSPod
@@ -543,10 +539,6 @@ loadlow.me
 # LobbyGod
 dns.lobbygod.com
 
-# lukscasino
-lukscasino-929-tr.xyz
-lukscasino-479-tr.xyz
-
 # LuMa Medien
 dns.luma-medien.com
 
@@ -687,9 +679,6 @@ ntwrkh.pro
 
 # ofdoom.net
 dns.ofdoom.net
-
-# oliviertv
-dns.oliviertv.co.za
 
 # OpenBLD.net
 ada.openbld.net
@@ -869,9 +858,6 @@ dns.szpadel.ovh
 
 # t53.de
 dns.t53.de
-
-# tecdrive.site
-tecdrive.site
 
 # Telekom Deutschland
 dns.telekom.de
