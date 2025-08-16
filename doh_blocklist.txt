@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-07-26
+# Version: 2025-08-16
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-07-26T02:26:55.388120+00Z
+# Last modified: 2025-08-16T02:19:00.898131+00Z
 #
 
 # Absolight
@@ -102,9 +102,6 @@ dns.brahma.world
 # brembeck.cloud
 dns.brembeck.cloud
 
-# butterfly87.sbs
-dns.butterfly87.sbs
-
 # busold.ws
 dns.busold.ws
 
@@ -166,9 +163,6 @@ router.comss.one
 # Control D
 freedns.controld.com
 
-# Crystalyx
-dns.crystalyx.net
-
 # CSA-IT
 dns.csaonline.de
 
@@ -193,9 +187,6 @@ ns.data.haus
 # datenquark.de
 dns.datenquark.de
 
-# deep-henchman-excuse.cfd
-deep-henchman-excuse.cfd
-
 # dev-umbrellagov
 dns.dev-umbrellagov.com
 
@@ -210,7 +201,6 @@ dns.digitalsize.net
 
 # DNS.SB
 doh.dns.sb
-doh.sb
 
 # dns0.eu
 open.dns0.eu
@@ -288,7 +278,6 @@ sjc01.dnscry.pt
 gru01.dnscry.pt
 sea01.dnscry.pt
 sin03.dnscry.pt
-sin02.dnscry.pt
 sof01.dnscry.pt
 geg01.dnscry.pt
 sto01.dnscry.pt
@@ -575,17 +564,11 @@ dns.mbrjun.cn
 # meddy94.de
 adguard.meddy94.de
 
-# mendozasdelivery.com
-mendozasdelivery.com
-
 # mh4ckt3mh4ckt1c4s.xyz
 dns.mh4ckt3mh4ckt1c4s.xyz
 
 # michelo.cl
 dns.michelo.cl
-
-# Mike Zhang
-mikezhang.xyz
 
 # m-it.ro
 addns1.m-it.ro
@@ -721,9 +704,6 @@ pooblet.co.za
 # Privex
 nl.dns.privex.io
 
-# propheci.xyz
-dns.propheci.xyz
-
 # Pubhole
 doh.archuser.org
 
@@ -799,9 +779,6 @@ dns.silen.org
 # skrep.eu
 dns.skrep.eu
 
-# Silentlybren
-dns.silentlybren.com
-
 # Slinkyman.net
 dns.slinkyman.net
 
@@ -813,9 +790,6 @@ adg.geili.me
 
 # solaxy.live
 solaxy.live
-
-# squidmall.vip
-squidmall.vip
 
 # Startup Stack
 dns.startupstack.tech
@@ -840,9 +814,6 @@ resolver.sunet.se
 
 # sunnygyl.com
 sunnygyl.com
-
-# Sunoaki Network
-doh.sunoaki.net
 
 # superstefan.win
 dns.superstefan.win
@@ -941,9 +912,6 @@ doh.zknt.org
 
 # 4NetGuides
 ns2.4netguides.org
-
-# 688447.xyz
-dns.688447.xyz
 
 # @null31
 ibuki.cgnat.net
