@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-08-16
+# Version: 2025-08-30
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-08-16T02:19:00.898131+00Z
+# Last modified: 2025-08-30T01:59:11.543041+00Z
 #
 
 # Absolight
@@ -302,9 +302,6 @@ hard.dnsforge.de
 # dnsHome.de
 dns.dnshome.de
 
-# DNSGuard.pub
-dnsguard.pub
-
 # dnslow.me
 dnslow.me
 
@@ -327,9 +324,6 @@ doh.buzz
 
 # domreg.lt
 doh.domreg.lt
-
-# do-39574-tr.xyz
-do-39574-tr.xyz
 
 # dremaxx.de
 dns.dremaxx.de
@@ -436,20 +430,11 @@ dns.guard.io
 # Hakase
 dns.haka.se
 
-# home-server.store
-home-server.store
-
 # Hoody
 dns.hoody.com
 
-# Hostux
-dns.hostux.net
-
 # Huque
 doth.huque.com
-
-# immerda.ch
-doh.immerda.ch
 
 # imperio.top
 imperio.top
@@ -566,9 +551,6 @@ adguard.meddy94.de
 
 # mh4ckt3mh4ckt1c4s.xyz
 dns.mh4ckt3mh4ckt1c4s.xyz
-
-# michelo.cl
-dns.michelo.cl
 
 # m-it.ro
 addns1.m-it.ro
@@ -862,7 +844,7 @@ tri-dns.net
 eu.tri-dns.net
 asia.tri-dns.net
 
-# [UK DNS Privacy Project
+# UK DNS Privacy Project
 resolver.dnsprivacy.org.uk
 
 # UncensoredDNS
