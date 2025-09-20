@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-09-06
+# Version: 2025-09-20
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-09-06T01:58:32.188610+00Z
+# Last modified: 2025-09-20T01:57:39.509478+00Z
 #
 
 # Absolight
@@ -236,7 +236,6 @@ de01.dns4me.net
 dns.dns-53.us
 
 # dnscry.pt
-ams01.dnscry.pt
 abn01.dnscry.pt
 ath01.dnscry.pt
 atl01.dnscry.pt
@@ -259,7 +258,6 @@ han01.dnscry.pt
 sgn01.dnscry.pt
 ist01.dnscry.pt
 las01.dnscry.pt
-lim02.dnscry.pt
 lis01.dnscry.pt
 lon01.dnscry.pt
 mad01.dnscry.pt
@@ -348,9 +346,6 @@ dns.d94.xyz
 
 # d96.info
 dns.d96.info
-
-# Egor Glukhikh
-dns.henek.ovh
 
 # Elemental Software
 dns.elemental.software
@@ -543,9 +538,6 @@ dns.mateo.ovh
 # Mayx
 dns.mayx.eu.org
 
-# MBRJun
-dns.mbrjun.cn
-
 # meddy94.de
 adguard.meddy94.de
 
@@ -568,9 +560,6 @@ base.dns.mullvad.net
 extended.dns.mullvad.net
 all.dns.mullvad.net
 family.dns.mullvad.net
-
-# myatris.sbs
-myatris.sbs
 
 # mydns.network
 freedom.mydns.network
@@ -618,10 +607,6 @@ adguard-kartoffel.zernico.de
 doh-random-upstream.nicolas-dorriere.fr
 doh-own-recursion.nicolas-dorriere.fr
 
-# niko.NWPS.fi
-public.ns.nwps.fi
-kids.ns.nwps.fi
-
 # Ningkelle
 dns.ningkelle.id
 family.dns.ningkelle.id
@@ -631,10 +616,6 @@ doh.niyawe.de
 
 # Njalla
 dns.njal.la
-
-# NordVPN
-dns1.nordvpn.com
-dns2.nordvpn.com
 
 # novg.net
 dns.novg.net
@@ -669,9 +650,6 @@ pepetio.xyz
 # petqa.ru
 dns.petqa.ru
 
-# pietjacobs.be
-dns1.pietjacobs.be
-
 # plan9-dns
 kronos.plan9-dns.com
 helios.plan9-dns.com
@@ -682,9 +660,6 @@ privacy.plumedns.com
 
 # pooblet.co.za
 pooblet.co.za
-
-# Privex
-nl.dns.privex.io
 
 # Pubhole
 doh.archuser.org
@@ -815,14 +790,8 @@ dns.t53.de
 # Telekom Deutschland
 dns.telekom.de
 
-# thebuckners.org
-dns.thebuckners.org
-
 # thethorsens.org
 blocker.thethorsens.org
-
-# thiz.top
-dns.thiz.top
 
 # TipsyCoffee
 dns.tipsy.coffee
