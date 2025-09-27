@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-09-20
+# Version: 2025-09-27
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-09-20T01:57:39.509478+00Z
+# Last modified: 2025-09-27T01:57:19.784018+00Z
 #
 
 # Absolight
@@ -258,7 +258,6 @@ han01.dnscry.pt
 sgn01.dnscry.pt
 ist01.dnscry.pt
 las01.dnscry.pt
-lis01.dnscry.pt
 lon01.dnscry.pt
 mad01.dnscry.pt
 mil01.dnscry.pt
@@ -443,10 +442,6 @@ dns.inforlogia.com
 
 # Internet Initiative Japan
 public.dns.iij.jp
-
-# is.my.waifu.cz
-megumin.is.my.waifu.cz
-yunyun.is.my.waifu.cz
 
 # Jupitr DNS
 dns.jupitrdns.com
@@ -789,9 +784,6 @@ dns.t53.de
 
 # Telekom Deutschland
 dns.telekom.de
-
-# thethorsens.org
-blocker.thethorsens.org
 
 # TipsyCoffee
 dns.tipsy.coffee
