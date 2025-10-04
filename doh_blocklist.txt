@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-09-27
+# Version: 2025-10-04
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-09-27T01:57:19.784018+00Z
+# Last modified: 2025-10-04T01:55:31.748367+00Z
 #
 
 # Absolight
@@ -415,9 +415,6 @@ dns64.dns.google
 # Gottlieb Freitag
 dns.glf.wtf
 
-# Green Ping
-dns.green-ping.lol
-
 # Guardio
 dns.guard.io
 
@@ -511,9 +508,6 @@ dns.l337.site
 
 # mabuktogel
 mabuktogel.directory
-
-# maqgie.xyz
-maqgie.xyz
 
 # marasov.id
 dns.marasov.id
