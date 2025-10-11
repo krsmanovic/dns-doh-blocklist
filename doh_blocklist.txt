@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-10-04
+# Version: 2025-10-11
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-10-04T01:55:31.748367+00Z
+# Last modified: 2025-10-11T01:57:29.278561+00Z
 #
 
 # Absolight
@@ -77,6 +77,9 @@ dns.belnet.be
 # Ben Hocking
 dns.bmwhocking.com
 
+# Bibica
+dns.bibica.net
+
 # Bitdefender
 dns.bitdefender.net
 
@@ -104,9 +107,6 @@ dns.brembeck.cloud
 
 # busold.ws
 dns.busold.ws
-
-# cabbage.zone
-dns.cabbage.zone
 
 # Canarypwn
 doh.aaaab3n.moe
@@ -343,9 +343,6 @@ dns.dynx.pro
 # d94.xyz
 dns.d94.xyz
 
-# d96.info
-dns.d96.info
-
 # Elemental Software
 dns.elemental.software
 
@@ -389,6 +386,16 @@ dns.flymc.cc
 # Foundation for Applied Privacy
 doh.applied-privacy.net
 
+# Foxyfy DNS
+dns.foxyfy.net
+de-d2.foxyfy.net
+de-f1.foxyfy.net
+ro-bu.foxyfy.net
+es-ma.foxyfy.net
+us-ny.foxyfy.net
+us-sj.foxyfy.net
+jp-to.foxyfy.net
+
 # Froth.zone
 dns.froth.zone
 
@@ -417,6 +424,9 @@ dns.glf.wtf
 
 # Guardio
 dns.guard.io
+
+# Hafnova
+secure.hafnova.com
 
 # Hakase
 dns.haka.se
@@ -624,6 +634,9 @@ ag.apollohct.com
 # opennameserver.org
 ns1.opennameserver.org
 
+# o2cloud.fr
+dns4eu.online
+
 # PaesaDNS
 dns.paesa.es
 
@@ -679,9 +692,6 @@ dns.redhosting.com.ar
 
 # reitmeier.me
 dns.reitmeier.me
-
-# reckoningslug.name
-dns.reckoningslug.name
 
 # regiopolis.cloud
 regiopolis.cloud
@@ -841,6 +851,9 @@ yarp.lefolgoc.net
 # Yuu528
 dns.yuu-g.net
 
+# Yuzi_ska
+dns.yuzia.cc
+
 # zdn.ro
 zdn.ro
 
@@ -857,4 +870,4 @@ ns2.4netguides.org
 ibuki.cgnat.net
 
 # @publicarray dns.seby.io
-doh-2.seby.io
+doh.seby.io
