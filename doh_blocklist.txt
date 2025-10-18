@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-10-11
+# Version: 2025-10-18
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-10-11T01:57:29.278561+00Z
+# Last modified: 2025-10-18T01:58:06.348651+00Z
 #
 
 # Absolight
@@ -76,9 +76,6 @@ dns.belnet.be
 
 # Ben Hocking
 dns.bmwhocking.com
-
-# Bibica
-dns.bibica.net
 
 # Bitdefender
 dns.bitdefender.net
@@ -178,9 +175,6 @@ dns.cynthialabs.net
 # CZ.NIC
 odvr.nic.cz
 
-# Danielle McLean
-ns.00dani.me
-
 # data.haus
 ns.data.haus
 
@@ -248,7 +242,6 @@ kiv01.dnscry.pt
 cph01.dnscry.pt
 cvt01.dnscry.pt
 dub01.dnscry.pt
-dus01.dnscry.pt
 fra01.dnscry.pt
 fra02.dnscry.pt
 gva01.dnscry.pt
@@ -295,6 +288,9 @@ evn01.dnscry.pt
 dnsforge.de
 clean.dnsforge.de
 hard.dnsforge.de
+
+# dnsguard.pub
+dns.dnsguard.pub
 
 # dnsHome.de
 dns.dnshome.de
@@ -795,9 +791,6 @@ dns.tipsy.coffee
 # Tls-data.de
 dns.tls-data.de
 
-# tujenasnaszato.xyz
-tujenasnaszato.xyz
-
 # TWNIC
 dns.twnic.tw
 
@@ -829,9 +822,6 @@ dns.vaioswolke.xyz
 
 # VIA
 doh.viatech.com.tw
-
-# wang art
-dns.wang.art
 
 # waringer-atg.de
 abel.waringer-atg.de
