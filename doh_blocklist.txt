@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-10-18
+# Version: 2025-10-25
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-10-18T01:58:06.348651+00Z
+# Last modified: 2025-10-25T02:03:43.138948+00Z
 #
 
 # Absolight
@@ -196,12 +196,6 @@ dns.digitalsize.net
 # DNS.SB
 doh.dns.sb
 
-# dns0.eu
-open.dns0.eu
-dns0.eu
-zero.dns0.eu
-kids.dns0.eu
-
 # DNS4all
 doh.dns4all.eu
 
@@ -276,7 +270,6 @@ tll01.dnscry.pt
 tpa01.dnscry.pt
 tsm01.dnscry.pt
 tbs01.dnscry.pt
-tlv01.dnscry.pt
 yyz01.dnscry.pt
 yvr01.dnscry.pt
 vie01.dnscry.pt
