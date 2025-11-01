@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-10-25
+# Version: 2025-11-01
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-10-25T02:03:43.138948+00Z
+# Last modified: 2025-11-01T02:18:06.313481+00Z
 #
 
 # Absolight
@@ -42,9 +42,6 @@ doh.angry.im
 
 # anon.no
 dns.anon.no
-
-# Anudeep
-secure.anudeep.me
 
 # applewebkit.dev
 dns.applewebkit.dev
@@ -89,12 +86,6 @@ dns.blokada.org
 # Blue Shield Umbrella
 rfree1.blue-shield.at
 rfree2.blue-shield.at
-
-# bonis.de
-adguard.bonis.de
-
-# Braene
-dns.braene.com
 
 # Brahma World
 dns.brahma.world
@@ -149,9 +140,6 @@ mozilla.cloudflare-dns.com
 security.cloudflare-dns.com
 family.cloudflare-dns.com
 dns64.cloudflare-dns.com
-
-# comff.net
-dns.comff.net
 
 # Comss.one DNS
 dns.comss.one
@@ -381,7 +369,6 @@ de-d2.foxyfy.net
 de-f1.foxyfy.net
 ro-bu.foxyfy.net
 es-ma.foxyfy.net
-us-ny.foxyfy.net
 us-sj.foxyfy.net
 jp-to.foxyfy.net
 
@@ -438,9 +425,6 @@ dns.inforlogia.com
 
 # Internet Initiative Japan
 public.dns.iij.jp
-
-# Jupitr DNS
-dns.jupitrdns.com
 
 # kapite.in
 dns.kapite.in
@@ -790,11 +774,6 @@ dns.twnic.tw
 # Tiarap
 doh.tiar.app
 
-# Tri-DNS
-tri-dns.net
-eu.tri-dns.net
-asia.tri-dns.net
-
 # UK DNS Privacy Project
 resolver.dnsprivacy.org.uk
 
@@ -833,9 +812,6 @@ yarp.lefolgoc.net
 
 # Yuu528
 dns.yuu-g.net
-
-# Yuzi_ska
-dns.yuzia.cc
 
 # zdn.ro
 zdn.ro
