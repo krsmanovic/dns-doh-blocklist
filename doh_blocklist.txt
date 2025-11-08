@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-11-01
+# Version: 2025-11-08
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-11-01T02:18:06.313481+00Z
+# Last modified: 2025-11-08T02:05:38.968198+00Z
 #
 
 # Absolight
@@ -208,9 +208,6 @@ nz01.dns4me.net
 ie01.dns4me.net
 de01.dns4me.net
 
-# dns-53
-dns.dns-53.us
-
 # dnscry.pt
 abn01.dnscry.pt
 ath01.dnscry.pt
@@ -370,7 +367,6 @@ de-f1.foxyfy.net
 ro-bu.foxyfy.net
 es-ma.foxyfy.net
 us-sj.foxyfy.net
-jp-to.foxyfy.net
 
 # Froth.zone
 dns.froth.zone
@@ -428,9 +424,6 @@ public.dns.iij.jp
 
 # kapite.in
 dns.kapite.in
-
-# kasbot.net
-adguard.kasbot.net
 
 # kebree.fr
 dns.kebree.fr
