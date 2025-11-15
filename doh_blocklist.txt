@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-11-08
+# Version: 2025-11-15
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-11-08T02:05:38.968198+00Z
+# Last modified: 2025-11-15T02:13:14.723129+00Z
 #
 
 # Absolight
@@ -403,9 +403,6 @@ secure.hafnova.com
 # Hakase
 dns.haka.se
 
-# Hoody
-dns.hoody.com
-
 # Huque
 doth.huque.com
 
@@ -425,9 +422,6 @@ public.dns.iij.jp
 # kapite.in
 dns.kapite.in
 
-# kebree.fr
-dns.kebree.fr
-
 # Kernel Error
 dns.kernel-error.de
 
@@ -439,9 +433,6 @@ pihole.aws.ketan.dev
 
 # khon.dev
 adg.khon.dev
-
-# Kidzonet
-doh.kidzonet.io
 
 # Koala
 dns.koala.us.to
@@ -481,9 +472,6 @@ dns.luma-medien.com
 
 # l337.site
 dns.l337.site
-
-# mabuktogel
-mabuktogel.directory
 
 # marasov.id
 dns.marasov.id
@@ -686,9 +674,6 @@ dns.roedel.cloud
 # SafeServe
 safeservedns.com
 
-# serdcebolit.ru
-dns1.serdcebolit.ru
-
 # Sheggi
 dns.sheggi.ch
 
@@ -739,9 +724,6 @@ sunnygyl.com
 
 # superstefan.win
 dns.superstefan.win
-
-# Svoi
-dns.svoi.dev
 
 # Switch
 dns.switch.ch
