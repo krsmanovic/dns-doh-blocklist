@@ -1,16 +1,15 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-11-15
+# Version: 2025-11-22
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-11-15T02:13:14.723129+00Z
+# Last modified: 2025-11-22T02:10:43.429737+00Z
 #
 
 # Absolight
 resolver1.absolight.net
 resolver2.absolight.net
-resolver3.absolight.net
 
 # AdFilter
 per.adfilter.net
@@ -643,9 +642,6 @@ family.rabbitdns.org
 
 # redhosting.com.ar
 dns.redhosting.com.ar
-
-# reitmeier.me
-dns.reitmeier.me
 
 # regiopolis.cloud
 regiopolis.cloud
