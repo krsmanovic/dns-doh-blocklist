@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-12-06
+# Version: 2025-12-13
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-12-06T02:14:42.634991+00Z
+# Last modified: 2025-12-13T02:17:40.196267+00Z
 #
 
 # Absolight
@@ -261,6 +261,9 @@ vno01.dnscry.pt
 waw02.dnscry.pt
 evn01.dnscry.pt
 
+# dnsdoh.art
+dnsdoh.art
+
 # dnsforge.de
 dnsforge.de
 clean.dnsforge.de
@@ -358,7 +361,6 @@ doh.applied-privacy.net
 
 # Foxyfy DNS
 dns.foxyfy.net
-de-d2.foxyfy.net
 de-f1.foxyfy.net
 es-ma.foxyfy.net
 
