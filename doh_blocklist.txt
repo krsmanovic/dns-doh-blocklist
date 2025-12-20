@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-12-13
+# Version: 2025-12-20
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-12-13T02:17:40.196267+00Z
+# Last modified: 2025-12-20T02:17:26.409361+00Z
 #
 
 # Absolight
@@ -298,9 +298,6 @@ doh.domreg.lt
 # dremaxx.de
 dns.dremaxx.de
 
-# droyd.top
-droyd.top
-
 # dshubham.xyz
 agh.dshubham.xyz
 
@@ -440,9 +437,6 @@ dns.koala.us.to
 
 # Kosan
 dns.kosan.moe
-
-# kpsn.org
-dart.kpsn.org
 
 # krctech.dev
 adblock.krctech.dev
@@ -589,9 +583,6 @@ dns.paulo.nom.za
 
 # Pavol Decky
 dns.decky.eu
-
-# pepetio.xyz
-pepetio.xyz
 
 # petqa.ru
 dns.petqa.ru
