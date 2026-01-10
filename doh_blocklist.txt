@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2025-12-20
+# Version: 2026-01-10
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2025-12-20T02:17:26.409361+00Z
+# Last modified: 2026-01-10T02:25:07.169768+00Z
 #
 
 # Absolight
@@ -147,6 +147,9 @@ router.comss.one
 # Control D
 freedns.controld.com
 
+# Cryptostorm
+cryptostorm.is
+
 # CSA-IT
 dns.csaonline.de
 
@@ -263,6 +266,9 @@ evn01.dnscry.pt
 
 # dnsdoh.art
 dnsdoh.art
+
+# dns.flatuslifir.is
+dns.flatuslifir.is
 
 # dnsforge.de
 dnsforge.de
@@ -672,9 +678,6 @@ dns.smartguard.io
 
 # smilence
 adg.geili.me
-
-# solaxy.live
-solaxy.live
 
 # Startup Stack
 dns.startupstack.tech
