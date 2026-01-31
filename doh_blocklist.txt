@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-01-17
+# Version: 2026-01-31
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-01-17T02:23:15.045641+00Z
+# Last modified: 2026-01-31T03:02:38.243868+00Z
 #
 
 # Absolight
@@ -100,9 +100,6 @@ doh.aaaab3n.moe
 
 # caspervk.net
 dns.caspervk.net
-
-# CCTLD.KG
-dns.cctld.kg
 
 # CERT Estonia
 dns.cert.ee
@@ -316,9 +313,6 @@ dukun.de
 # duröhre.de
 xn--durhre-yxa.de
 
-# DynX
-dns.dynx.pro
-
 # d94.xyz
 dns.d94.xyz
 
@@ -333,9 +327,6 @@ dns.faked.org
 
 # familiamv.net
 dnsvps.familiamv.net
-
-# Fancyorg.at
-dns.fancyorg.at
 
 # farshidhakimy.de
 dns.farshidhakimy.de
@@ -381,9 +372,6 @@ dns.gamban.com
 
 # gibblets.top
 gibblets.top
-
-# girino.org
-dns.girino.org
 
 # glacius.top
 glacius.top
@@ -476,9 +464,6 @@ dns.l337.site
 
 # marasov.id
 dns.marasov.id
-
-# Marco Fox
-dns.technologycage.com
 
 # Marbled Fennec Networks / FurrIX
 dns.marbledfennec.net
@@ -721,9 +706,6 @@ dns.tipsy.coffee
 
 # Tls-data.de
 dns.tls-data.de
-
-# TWNIC
-dns.twnic.tw
 
 # Tiarap
 doh.tiar.app
