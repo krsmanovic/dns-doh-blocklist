@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-01-31
+# Version: 2026-02-07
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-01-31T03:02:38.243868+00Z
+# Last modified: 2026-02-07T03:05:49.791710+00Z
 #
 
 # Absolight
@@ -48,18 +48,11 @@ dns.applewebkit.dev
 # Aquilenet DNS
 dns.aquilenet.fr
 
-# Arashi DNS
-arashi.net.eu.org
-ns.net.kg
-
 # arnor.org
 nsec.arnor.org
 
 # Asteri Moon
 dns.asterimoon.com
-
-# Avast DNS
-secure.avastdns.com
 
 # a47.me
 dns.a47.me
@@ -262,7 +255,6 @@ yvr01.dnscry.pt
 vie01.dnscry.pt
 vno01.dnscry.pt
 waw02.dnscry.pt
-evn01.dnscry.pt
 
 # dnsdoh.art
 dnsdoh.art
@@ -321,6 +313,9 @@ dns.elemental.software
 
 # ELIV DNS
 dns.eliv.kr
+
+# envs.net
+dns.envs.net
 
 # faked.org
 dns.faked.org
@@ -489,9 +484,6 @@ addns1.m-it.ro
 # mmmalia.com
 doh.mmmalia.com
 
-# mnet-online.de
-dns.mnet-online.de
-
 # Mullvad
 dns.mullvad.net
 adblock.dns.mullvad.net
@@ -591,6 +583,9 @@ privacy.plumedns.com
 
 # pooblet.co.za
 pooblet.co.za
+
+# Practically Unhackable
+dns.practicallyunhackable.com
 
 # Pubhole
 doh.archuser.org
@@ -710,9 +705,6 @@ dns.tls-data.de
 # Tiarap
 doh.tiar.app
 
-# UK DNS Privacy Project
-resolver.dnsprivacy.org.uk
-
 # UncensoredDNS
 anycast.uncensoreddns.org
 
@@ -742,9 +734,6 @@ dns.w3ctag.org
 
 # xlion.tw
 dns.xlion.tw
-
-# Yarp
-yarp.lefolgoc.net
 
 # Yuu528
 dns.yuu-g.net
