@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-02-07
+# Version: 2026-03-21
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-02-07T03:05:49.791710+00Z
+# Last modified: 2026-03-21T03:04:01.585038+00Z
 #
 
 # Absolight
@@ -722,6 +722,9 @@ dns.vaioswolke.xyz
 
 # VIA
 doh.viatech.com.tw
+
+# v0dka.ru
+v0dka.ru
 
 # waringer-atg.de
 abel.waringer-atg.de
