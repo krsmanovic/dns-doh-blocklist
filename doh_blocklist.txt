@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-03-21
+# Version: 2026-03-28
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-03-21T03:04:01.585038+00Z
+# Last modified: 2026-03-28T03:18:07.623463+00Z
 #
 
 # Absolight
@@ -23,6 +23,9 @@ adfreedns.top
 dns.adguard-dns.com
 family.adguard-dns.com
 unfiltered.adguard-dns.com
+
+# ADnull DNS
+dns.adnull.com
 
 # AKBXR DNS
 dns.akbxr.com
@@ -149,9 +152,6 @@ dns.csaonline.de
 # csa-rz.de
 dns.csa-rz.de
 
-# CSS Working Group
-dns.csswg.org
-
 # CynthiaLabs
 dns.cynthialabs.net
 
@@ -222,7 +222,6 @@ gva01.dnscry.pt
 haf01.dnscry.pt
 yhz01.dnscry.pt
 han01.dnscry.pt
-sgn01.dnscry.pt
 ist01.dnscry.pt
 las01.dnscry.pt
 lon01.dnscry.pt
@@ -255,9 +254,6 @@ yvr01.dnscry.pt
 vie01.dnscry.pt
 vno01.dnscry.pt
 waw02.dnscry.pt
-
-# dnsdoh.art
-dnsdoh.art
 
 # dns.flatuslifir.is
 dns.flatuslifir.is
@@ -311,9 +307,6 @@ dns.d94.xyz
 # Elemental Software
 dns.elemental.software
 
-# ELIV DNS
-dns.eliv.kr
-
 # envs.net
 dns.envs.net
 
@@ -355,9 +348,6 @@ doh.applied-privacy.net
 dns.foxyfy.net
 de-f1.foxyfy.net
 es-ma.foxyfy.net
-
-# Froth.zone
-dns.froth.zone
 
 # FutaDNS
 doh.futa.gg
@@ -420,9 +410,6 @@ dns.kescher.at
 
 # ketan.dev
 pihole.aws.ketan.dev
-
-# khon.dev
-adg.khon.dev
 
 # Koala
 dns.koala.us.to
@@ -533,10 +520,6 @@ doh.nic.lv
 doh-random-upstream.nicolas-dorriere.fr
 doh-own-recursion.nicolas-dorriere.fr
 
-# Ningkelle
-dns.ningkelle.id
-family.dns.ningkelle.id
-
 # NiYaWe
 doh.niyawe.de
 
@@ -603,7 +586,6 @@ dns.quiet.rocks
 # QWER DNS
 dog.dns.qwer.pw
 lion.dns.qwer.pw
-frog.dns.qwer.pw
 tiger.dns.qwer.pw
 
 # redhosting.com.ar
