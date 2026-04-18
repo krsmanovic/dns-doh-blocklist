@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-04-11
+# Version: 2026-04-18
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-04-11T03:21:58.333470+00Z
+# Last modified: 2026-04-18T03:31:39.441903+00Z
 #
 
 # Absolight
@@ -623,6 +623,9 @@ safeservedns.com
 
 # Sheggi
 dns.sheggi.ch
+
+# Shit Blocker
+shitblocker.com
 
 # shoupperuser.com
 adguard.shoupperuser.com
