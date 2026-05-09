@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-04-18
+# Version: 2026-05-09
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-04-18T03:31:39.441903+00Z
+# Last modified: 2026-05-09T03:59:51.961330+00Z
 #
 
 # Absolight
@@ -149,9 +149,6 @@ cryptostorm.is
 # CSA-IT
 dns.csaonline.de
 
-# csa-rz.de
-dns.csa-rz.de
-
 # CynthiaLabs
 dns.cynthialabs.net
 
@@ -197,7 +194,6 @@ us02.dns4me.net
 sg01.dns4me.net
 sa01.dns4me.net
 au01.dns4me.net
-au02.dns4me.net
 uk01.dns4me.net
 nz01.dns4me.net
 ie01.dns4me.net
@@ -231,7 +227,6 @@ bom01.dnscry.pt
 nue01.dnscry.pt
 omr01.dnscry.pt
 par01.dnscry.pt
-phl01.dnscry.pt
 phx01.dnscry.pt
 pdx01.dnscry.pt
 rdd01.dnscry.pt
@@ -345,7 +340,6 @@ dns.flymc.cc
 doh.applied-privacy.net
 
 # Foxyfy DNS
-dns.foxyfy.net
 de-f1.foxyfy.net
 es-ma.foxyfy.net
 
@@ -425,9 +419,6 @@ adblock.krctech.dev
 
 # La Contre-Voie
 doh.lacontrevoie.fr
-
-# LavaDNS
-eu1.dns.lavate.ch
 
 # Liberador.net
 dns.liberador.net
@@ -731,9 +722,6 @@ dns.yuu-g.net
 
 # zdn.ro
 zdn.ro
-
-# zknt.org
-doh.zknt.org
 
 # 123000123.xyz
 123000123.xyz
