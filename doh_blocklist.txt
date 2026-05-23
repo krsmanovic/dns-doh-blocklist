@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-05-09
+# Version: 2026-05-23
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-05-09T03:59:51.961330+00Z
+# Last modified: 2026-05-23T04:10:58.379098+00Z
 #
 
 # Absolight
@@ -343,6 +343,9 @@ doh.applied-privacy.net
 de-f1.foxyfy.net
 es-ma.foxyfy.net
 
+# FurrIX vIX
+dns.furrix.zone
+
 # FutaDNS
 doh.futa.gg
 
@@ -440,9 +443,6 @@ dns.l337.site
 
 # marasov.id
 dns.marasov.id
-
-# Marbled Fennec Networks / FurrIX
-dns.marbledfennec.net
 
 # Masters of Cloud
 masters-of-cloud.de
