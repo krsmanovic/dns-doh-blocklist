@@ -1,15 +1,11 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-05-23
+# Version: 2026-05-30
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-05-23T04:10:58.379098+00Z
+# Last modified: 2026-05-30T04:29:16.172920+00Z
 #
-
-# Absolight
-resolver1.absolight.net
-resolver2.absolight.net
 
 # AdFilter
 per.adfilter.net
@@ -284,9 +280,6 @@ doh.buzz
 # domreg.lt
 doh.domreg.lt
 
-# dremaxx.de
-dns.dremaxx.de
-
 # dshubham.xyz
 agh.dshubham.xyz
 
@@ -332,9 +325,6 @@ fidelius.top
 
 # floriantinney.de
 dns.floriantinney.de
-
-# FLY_MC
-dns.flymc.cc
 
 # Foundation for Applied Privacy
 doh.applied-privacy.net
@@ -473,12 +463,6 @@ extended.dns.mullvad.net
 all.dns.mullvad.net
 family.dns.mullvad.net
 
-# mydns.network
-freedom.mydns.network
-paranoia.mydns.network
-adblock.mydns.network
-family.mydns.network
-
 # MZJ Technology
 dns.mzjtechnology.com
 
@@ -511,8 +495,8 @@ doh.lv
 doh.nic.lv
 
 # Nicolas Dorriere
-doh-random-upstream.nicolas-dorriere.fr
-doh-own-recursion.nicolas-dorriere.fr
+doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
+doh-recursive-to-root.technitium.nicolas-dorriere.fr
 
 # NiYaWe
 doh.niyawe.de
@@ -612,12 +596,6 @@ dns.roedel.cloud
 # SafeServe
 safeservedns.com
 
-# Sheggi
-dns.sheggi.ch
-
-# Shit Blocker
-shitblocker.com
-
 # shoupperuser.com
 adguard.shoupperuser.com
 
@@ -633,9 +611,6 @@ dns.slinkyman.net
 # SmartGuard
 dns.smartguard.io
 
-# smilence
-adg.geili.me
-
 # Startup Stack
 dns.startupstack.tech
 
@@ -650,9 +625,6 @@ dns.stormycloud.org
 
 # Surfshark DNS
 dns.surfsharkdns.com
-
-# suhaila.dev
-dns.suhaila.dev
 
 # Sunet DNS
 resolver.sunet.se
