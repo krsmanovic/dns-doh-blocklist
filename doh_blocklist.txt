@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-05-30
+# Version: 2026-06-06
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-05-30T04:29:16.172920+00Z
+# Last modified: 2026-06-06T04:30:28.626893+00Z
 #
 
 # AdFilter
@@ -496,7 +496,6 @@ doh.nic.lv
 
 # Nicolas Dorriere
 doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
-doh-recursive-to-root.technitium.nicolas-dorriere.fr
 
 # NiYaWe
 doh.niyawe.de
@@ -689,14 +688,8 @@ dns.w3ctag.org
 # xlion.tw
 dns.xlion.tw
 
-# Yuu528
-dns.yuu-g.net
-
 # zdn.ro
 zdn.ro
-
-# 123000123.xyz
-123000123.xyz
 
 # 4NetGuides
 ns2.4netguides.org
