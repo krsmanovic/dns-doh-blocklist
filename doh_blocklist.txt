@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-06-06
+# Version: 2026-06-13
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-06-06T04:30:28.626893+00Z
+# Last modified: 2026-06-13T04:54:27.677753+00Z
 #
 
 # AdFilter
@@ -197,7 +197,6 @@ de01.dns4me.net
 
 # dnscry.pt
 abn01.dnscry.pt
-ath01.dnscry.pt
 atl01.dnscry.pt
 bog01.dnscry.pt
 bts01.dnscry.pt
@@ -515,9 +514,6 @@ ada.openbld.net
 # OpenLoop
 ag.apollohct.com
 
-# opennameserver.org
-ns1.opennameserver.org
-
 # o2cloud.fr
 dns4eu.online
 
@@ -684,9 +680,6 @@ wikimedia-dns.org
 
 # W3C TAG
 dns.w3ctag.org
-
-# xlion.tw
-dns.xlion.tw
 
 # zdn.ro
 zdn.ro
