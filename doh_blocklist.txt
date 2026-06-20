@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-06-13
+# Version: 2026-06-20
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-06-13T04:54:27.677753+00Z
+# Last modified: 2026-06-20T04:43:31.748679+00Z
 #
 
 # AdFilter
@@ -64,9 +64,6 @@ dns.belnet.be
 
 # Ben Hocking
 dns.bmwhocking.com
-
-# Bitdefender
-dns.bitdefender.net
 
 # BITServices
 dns.bitservices.io
@@ -141,9 +138,6 @@ freedns.controld.com
 
 # Cryptostorm
 cryptostorm.is
-
-# CSA-IT
-dns.csaonline.de
 
 # CynthiaLabs
 dns.cynthialabs.net
@@ -532,7 +526,6 @@ dns.petqa.ru
 # plan9-dns
 kronos.plan9-dns.com
 helios.plan9-dns.com
-pluton.plan9-dns.com
 
 # PlumeDNS
 privacy.plumedns.com
