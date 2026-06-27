@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-06-20
+# Version: 2026-06-27
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-06-20T04:43:31.748679+00Z
+# Last modified: 2026-06-27T04:28:21.151232+00Z
 #
 
 # AdFilter
@@ -131,7 +131,6 @@ dns64.cloudflare-dns.com
 
 # Comss.one DNS
 dns.comss.one
-router.comss.one
 
 # Control D
 freedns.controld.com
@@ -222,7 +221,6 @@ rdd01.dnscry.pt
 slc01.dnscry.pt
 trf01.dnscry.pt
 sjc01.dnscry.pt
-gru01.dnscry.pt
 sea01.dnscry.pt
 sin03.dnscry.pt
 sof01.dnscry.pt
