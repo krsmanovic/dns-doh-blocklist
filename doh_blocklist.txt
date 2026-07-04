@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-06-27
+# Version: 2026-07-04
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-06-27T04:28:21.151232+00Z
+# Last modified: 2026-07-04T04:05:49.239471+00Z
 #
 
 # AdFilter
@@ -28,9 +28,6 @@ dns.akbxr.com
 
 # AliDNS
 dns.alidns.com
-
-# André Kelpe
-doh.kel.pe
 
 # Andrews & Arnold
 dns.aa.net.uk
@@ -229,7 +226,6 @@ sto01.dnscry.pt
 syd02.dnscry.pt
 tll01.dnscry.pt
 tpa01.dnscry.pt
-tsm01.dnscry.pt
 tbs01.dnscry.pt
 yyz01.dnscry.pt
 yvr01.dnscry.pt
@@ -454,6 +450,12 @@ extended.dns.mullvad.net
 all.dns.mullvad.net
 family.dns.mullvad.net
 
+# mydns.network
+freedom.mydns.network
+paranoia.mydns.network
+adblock.mydns.network
+family.mydns.network
+
 # MZJ Technology
 dns.mzjtechnology.com
 
@@ -617,9 +619,6 @@ resolver.sunet.se
 
 # sunnygyl.com
 sunnygyl.com
-
-# superstefan.win
-dns.superstefan.win
 
 # Switch
 dns.switch.ch
