@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-07-04
+# Version: 2026-07-11
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-07-04T04:05:49.239471+00Z
+# Last modified: 2026-07-11T03:46:37.226551+00Z
 #
 
 # AdFilter
@@ -61,6 +61,9 @@ dns.belnet.be
 
 # Ben Hocking
 dns.bmwhocking.com
+
+# Bezmezhau DNS
+dns.bezmezhau.com
 
 # BITServices
 dns.bitservices.io
@@ -208,7 +211,6 @@ las01.dnscry.pt
 lon01.dnscry.pt
 mad01.dnscry.pt
 mil01.dnscry.pt
-bom01.dnscry.pt
 nue01.dnscry.pt
 omr01.dnscry.pt
 par01.dnscry.pt
@@ -222,7 +224,6 @@ sea01.dnscry.pt
 sin03.dnscry.pt
 sof01.dnscry.pt
 geg01.dnscry.pt
-sto01.dnscry.pt
 syd02.dnscry.pt
 tll01.dnscry.pt
 tpa01.dnscry.pt
@@ -384,9 +385,6 @@ dns.kernel-error.de
 
 # kescher
 dns.kescher.at
-
-# ketan.dev
-pihole.aws.ketan.dev
 
 # Koala
 dns.koala.us.to
@@ -551,7 +549,6 @@ dns.quiet.rocks
 
 # QWER DNS
 dog.dns.qwer.pw
-lion.dns.qwer.pw
 tiger.dns.qwer.pw
 
 # redhosting.com.ar
@@ -622,9 +619,6 @@ sunnygyl.com
 
 # Switch
 dns.switch.ch
-
-# szpadel.ovh
-dns.szpadel.ovh
 
 # t53.de
 dns.t53.de
