@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-07-18
+# Version: 2026-08-01
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-07-18T03:37:33.290752+00Z
+# Last modified: 2026-08-01T03:55:30.648059+00Z
 #
 
 # AdFilter
@@ -128,9 +128,6 @@ dns.comss.one
 
 # Control D
 freedns.controld.com
-
-# Cryptostorm
-cryptostorm.is
 
 # CynthiaLabs
 dns.cynthialabs.net
@@ -530,6 +527,9 @@ adguard.shoupperuser.com
 
 # silen.org
 dns.silen.org
+
+# simplylinux.ch
+dns.simplylinux.ch
 
 # skrep.eu
 dns.skrep.eu
