@@ -1,15 +1,14 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-08-15
+# Version: 2026-08-22
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-08-15T01:52:16.599013+00Z
+# Last modified: 2026-08-22T01:53:16.005909+00Z
 #
 
 # AdFilter
 per.adfilter.net
-syd.adfilter.net
 adl.adfilter.net
 
 # Adfreedns
@@ -19,9 +18,6 @@ adfreedns.top
 dns.adguard-dns.com
 family.adguard-dns.com
 unfiltered.adguard-dns.com
-
-# AKBXR DNS
-dns.akbxr.com
 
 # AliDNS
 dns.alidns.com
@@ -237,9 +233,6 @@ dnsvps.familiamv.net
 # farshidhakimy.de
 dns.farshidhakimy.de
 
-# FBI NICS E-Check
-nicsezcheckfbi.gov
-
 # FDN - French Data Network
 ns0.fdn.fr
 ns1.fdn.fr
@@ -441,9 +434,6 @@ dns.njal.la
 # novg.net
 dns.novg.net
 
-# ofdoom.net
-dns.ofdoom.net
-
 # Omada
 dns.omada.cafe
 
@@ -500,9 +490,6 @@ dns.redhosting.com.ar
 
 # regiopolis.cloud
 regiopolis.cloud
-
-# renardbleu.dev
-renardbleu.dev
 
 # Restena
 dnspub.restena.lu
