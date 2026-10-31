@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-10-10
+# Version: 2026-10-31
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-10-10T06:01:45.047512+00Z
+# Last modified: 2026-10-31T05:55:27.182874+00Z
 #
 
 # AdFilter
@@ -80,10 +80,6 @@ dns.caspervk.net
 # CERT Estonia
 dns.cert.ee
 
-# Charter
-doh-01.spectrum.com
-doh-02.spectrum.com
-
 # chenu.ch
 dns.chenu.ch
 
@@ -128,9 +124,6 @@ dns.cynthialabs.net
 # CZ.NIC
 odvr.nic.cz
 
-# data.haus
-ns.data.haus
-
 # datenquark.de
 dns.datenquark.de
 
@@ -171,9 +164,6 @@ uk01.dns4me.net
 nz01.dns4me.net
 ie01.dns4me.net
 de01.dns4me.net
-
-# dns.flatuslifir.is
-dns.flatuslifir.is
 
 # dnsforge.de
 dnsforge.de
@@ -246,17 +236,11 @@ doh.li
 # ffmuc.net
 doh.ffmuc.net
 
-# fidelius.top
-fidelius.top
-
 # floriantinney.de
 dns.floriantinney.de
 
 # Foundation for Applied Privacy
 doh.applied-privacy.net
-
-# Foxyfy DNS
-es-ma.foxyfy.net
 
 # FurrIX vIX
 dns.furrix.zone
@@ -266,12 +250,6 @@ doh.futa.gg
 
 # Gamban
 dns.gamban.com
-
-# gibblets.top
-gibblets.top
-
-# glacius.top
-glacius.top
 
 # Google
 dns.google
@@ -301,14 +279,8 @@ hnsdoh.com
 # Hostux.net
 dns.hostux.net
 
-# HQDNS
-dns.hqdns.sarl
-
 # Huque
 doth.huque.com
-
-# imperio.top
-imperio.top
 
 # In-Berlin
 dns1.in-berlin.de
@@ -416,10 +388,6 @@ dns.nextdns.io
 # Nick Slowinski
 dns.nick-slowinski.de
 
-# NIC.LV
-doh.lv
-doh.nic.lv
-
 # Nicolas Dorriere
 doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
 
@@ -441,9 +409,6 @@ ada.openbld.net
 # OpenLoop
 ag.apollohct.com
 
-# o2cloud.fr
-dns4eu.online
-
 # PaesaDNS
 dns.paesa.es
 
@@ -459,9 +424,6 @@ helios.plan9-dns.com
 
 # PlumeDNS
 privacy.plumedns.com
-
-# pooblet.co.za
-pooblet.co.za
 
 # Practically Unhackable
 dns.practicallyunhackable.com
@@ -494,9 +456,6 @@ dns.retakecs.com
 
 # RethinkDNS
 sky.rethinkdns.com
-
-# revelio.top
-revelio.top
 
 # RobinGroppe.de
 dns.rbn.gr
@@ -533,9 +492,6 @@ doh.sz-dns.com
 
 # stirringphoto.com
 dns.stirringphoto.com
-
-# Surfshark DNS
-dns.surfsharkdns.com
 
 # Sunet DNS
 resolver.sunet.se
