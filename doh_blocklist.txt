@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-10-31
+# Version: 2026-11-07
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-10-31T05:55:27.182874+00Z
+# Last modified: 2026-11-07T06:11:22.533169+00Z
 #
 
 # AdFilter
@@ -48,6 +48,9 @@ dns.a47.me
 
 # bazooki-infra.dev
 bazooki-infra.dev
+
+# BeatQuantum
+beatquantum.com
 
 # Belnet
 dns.belnet.be
@@ -138,6 +141,9 @@ doh.disconnect.app
 
 # dns.digitalsize.net
 dns.digitalsize.net
+
+# DNSGuard
+dns.dnsguard.pub
 
 # DNS.SB
 doh.dns.sb
@@ -255,9 +261,6 @@ dns.gamban.com
 dns.google
 dns64.dns.google
 8888.google
-
-# Gottlieb Freitag
-dns.glf.wtf
 
 # Guardio
 dns.guard.io
@@ -478,6 +481,9 @@ dns.simplylinux.ch
 # skrep.eu
 dns.skrep.eu
 
+# Sktr
+dns.sktr.com.tr
+
 # Slinkyman.net
 dns.slinkyman.net
 
@@ -528,9 +534,6 @@ v.recipes
 
 # vaioswolke.xyz
 dns.vaioswolke.xyz
-
-# VIA
-doh.viatech.com.tw
 
 # v0dka.ru
 v0dka.ru
