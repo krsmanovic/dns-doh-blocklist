@@ -1,10 +1,10 @@
 #
 # Title: Che's DNS over HTTPS Block List
 # Description: The Blocklist to filter DNS over HTTPS domains. Data source for the list is https://github.com/curl/curl/wiki/DNS-over-HTTPS.
-# Version: 2026-11-07
+# Version: 2026-11-14
 # Homepage: https://github.com/krsmanovic/dns-doh-blocklist
 # Raw URL: https://raw.githubusercontent.com/krsmanovic/dns-doh-blocklist/refs/heads/main/doh_blocklist.txt
-# Last modified: 2026-11-07T06:11:22.533169+00Z
+# Last modified: 2026-11-14T06:42:18.874941+00Z
 #
 
 # AdFilter
@@ -115,9 +115,6 @@ security.cloudflare-dns.com
 family.cloudflare-dns.com
 dns64.cloudflare-dns.com
 
-# Comss.one DNS
-dns.comss.one
-
 # Control D
 freedns.controld.com
 
@@ -217,6 +214,9 @@ dns.d94.xyz
 # Easy HNS
 dns.easyhns.com
 
+# Ekinao
+dns.ekinao.com
+
 # Elemental Software
 dns.elemental.software
 
@@ -272,6 +272,7 @@ secure.hafnova.com
 root.hagezi.org
 wurzn.hagezi.org
 juuri.hagezi.org
+ctif.hagezi.org
 
 # Hakase
 dns.haka.se
@@ -315,6 +316,9 @@ adblock.krctech.dev
 
 # La Contre-Voie
 doh.lacontrevoie.fr
+
+# le_dns
+ledns.eu
 
 # Liberador.net
 dns.liberador.net
@@ -375,7 +379,6 @@ au-syd-w-f-1.nashkan.net
 gb-lon-w-p-2.nashkan.net
 ro-buc-w-p-1.nashkan.net
 sg-w-p-1.nashkan.net
-us-chi-w-f-1.nashkan.net
 us-chi-w-p-1.nashkan.net
 us-jac-w-f-1.nashkan.net
 us-jac-w-p-1.nashkan.net
@@ -504,9 +507,6 @@ resolver.sunet.se
 
 # Switch
 dns.switch.ch
-
-# t53.de
-dns.t53.de
 
 # Telekom Deutschland
 dns.telekom.de
